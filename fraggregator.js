@@ -21,7 +21,7 @@ import pty from 'node-pty'
 
 import Team from './classes/Team.js'
 const Splyce = new Team('123', 'splyce', 'Splyce', 'SPL', 'USA', 'butts.svg', [], false)
-console.log(Splyce.create())
+Splyce.create()
 
 import { promisify } from 'util'
 import * as child from 'child_process'
